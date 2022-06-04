@@ -74,11 +74,6 @@ h1{
     margin: 20px 0px 20px;
     font-size: 60px;
 }
-h2{
-    color: aqua;
-    font-size: 20px;
-    margin-bottom: 50px;
-}
 .About{
     width: 100%;
     padding: 100px 0px;
@@ -137,4 +132,40 @@ h2{
     font-weight: bold;
     padding: 10px 35px;
     border-radius: 30px;
+}
+.Skills{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(14, 14, 14);
+    right:10px;
+}
+.Skills img{
+    height: 420px;
+    width: 600px;
+}
+.grandmaster{
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    position: relative;
+}
+.grandmaster2 img{
+    height: 420px;
+    width: 800px;
+}
+.Looks p{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Looks h3{
+    color: aqua;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.Looks h4{
+    color: rgb(233, 243, 51);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
 }

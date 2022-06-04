@@ -43,7 +43,7 @@ nav ul li a:hover{
 }
 .follow{
     background-color: #f9004d;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -52,16 +52,75 @@ nav ul li a:hover{
 }
 .introduction{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 5%;
 }
 h1{
-    color:aqua;
-    margin: 25px 0px 25px;
+    color:rgb(255, 255, 255);
+    margin: 20px 0px 20px;
     font-size: 60px;
 }
 h2{
-    color: burlywood;
+    color: aqua;
     font-size: 20px;
     margin-bottom: 50px;
+}
+.About{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(205, 74, 41);
+}
+.About img{
+    height: auto;
+    width: 420px;
+}
+.The-text{
+    width: 500px;
+}
+.main{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.The-text h3{
+    color: aqua;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.The-text h4{
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.The-text p{
+    color: white;
+}
+.contact-me{
+    width: 100%;
+    height: 200px;
+    background: rgb(11, 11, 11);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-me .Rada{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 30px;
 }

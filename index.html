@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--This is a link to my style.css-->
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Keith Wesley</title>
 </head>
 <body>
+    <!-- I made this for navigation links in the website as well as my youtube channel -->
+    <!--The many classes help me in calling a specific part of my code in css where I want to modify the properties-->
+    <!--Sections are my containers. They allow me to modify parts of my website without affecting others-->
+
     <div class="sugarNSpice"> 
         <nav>
+
+            <!--Span lets me color one word depending on where I start n end the span between the word-->
+            <!--The # lets me call the ids so I can navigate to those containers. # alone sends me to the top of my website-->
+
             <h2 class="BigButton"><span>Port</span>folio</h2>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -14,6 +24,9 @@
                 <li><a href="#Reach">Contact</a></li>
                 <li><a href="#skills">Skills</a></li>
             </ul>
+
+            <!-- The target="_blank" allows me and other visitors of my page to open the link on a new tab -->
+
             <a href="https://www.youtube.com/channel/UCGDtQIHKh6Xe1ic2_UH10iA" target="_blank" class="follow">Subscribe</a>
         </nav>
         <div class="introduction">
@@ -22,10 +35,15 @@
         </div>
     </div>
 
+    <!-- I made this container for my About information. Contains an image of me as well -->
+
     <section class="About">
-        <div class="main">
+        <div class="About3">
             <img src="./images/Me again.jpg" alt="picture of me">
             <div class="The-text">
+
+                <!-- I made the id to let the link of About from the top page navigate to this section of my website -->
+
                 <h3 id="About2">About Me</h3>
                 <h4>Developer trainee & Youtuber</h4>
                 <p>
@@ -36,10 +54,15 @@
         </div>
     </section>
 
+    <!-- I made this for my Skills information container. Has an image of Grandmaster -->
+
     <section class="Skills">
         <div class="Skills2">
             <img src="./images/Steamgames.png" alt="Grandmaster">
             <div class="skills-text">
+
+                <!-- I made the id to let the link of Skills from the top page navigate to this section of my website -->
+
                 <h3 id="skills">Skills</h3>
                 <h4>Gaming skills</h4>
                 <p>I have played many games before steam was a thing. I played a lot of games hard core, invested a lot of hours chasing leaderboard ranks.<br>
@@ -50,16 +73,23 @@
         </div>
     </section>
 
+    <!-- I made this to contain the last image in its own section because it was giving me problems with collisions -->
+
     <section class="Punches">
         <div class="grandmaster2">
             <img src="./images/Grandmaster.jpg" alt="Steamgames">
         </div>
     </section>
 
+    <!-- I made this container for my contact details -->
+
     <section>
         <div class="contact-me">
+
+            <!-- I made the id to let the link of Contact from the top page navigate to this section of my website -->
+            
             <p id="Reach">The Left Hands Guild Leader</p>
-            <a class="Rada" href="mailto:keithwesley187@gmail.com">Talk to me</a>
+            <a class="Rada" href="mailto:keithwesley187@gmail.com" target="_blank">Talk to me</a>
         </div>
     </section>
 </body>

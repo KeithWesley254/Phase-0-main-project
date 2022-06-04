@@ -13,3 +13,6 @@ https://www.youtube.com/watch?v=oRbLowjKVzI
 
 I checked on how to open links in new tabs.
 https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
+
+I added comments to both my Html and Css codes to help me remember what I did later on and the rationale behind some
+of my decisions and thinking.

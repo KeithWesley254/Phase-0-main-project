@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.sugarNSpice{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Red\ tower.jpeg);
+    background-size: cover;
+    background-position: center;
+}
